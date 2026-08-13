@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "./App.css";
+import NormalCounter from "./components/useState/NormalCounter";
 
 function App() {
   return (
     <>
-      <p>React Hooks</p>
+      <NormalCounter />
     </>
   );
 }
