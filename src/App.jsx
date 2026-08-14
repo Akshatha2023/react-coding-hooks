@@ -6,6 +6,7 @@ import CounterObject from "./components/useState/CounterObject";
 import CounterArray from "./components/useState/CounterArray";
 import CounterOne from "./components/useEffect/CounterOne";
 import CounterTwoUseEffect from "./components/useEffect/CounterTwoUseEffect";
+import CounterThreeUseEffect from "./components/useEffect/CounterThreeUseEffect";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <CounterObject /> */}
       {/* <CounterArray /> */}
       {/* <CounterOne /> */}
-      <CounterTwoUseEffect />
+      {/* <CounterTwoUseEffect /> */}
+      <CounterThreeUseEffect />
     </>
   );
 }
