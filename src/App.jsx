@@ -4,6 +4,7 @@ import NormalCounter from "./components/useState/NormalCounter";
 import CounterTwo from "./components/useState/CounterTwo";
 import CounterObject from "./components/useState/CounterObject";
 import CounterArray from "./components/useState/CounterArray";
+import CounterOne from "./components/useEffect/CounterOne";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <NormalCounter /> */}
       {/* <CounterTwo /> */}
       {/* <CounterObject /> */}
-      <CounterArray />
+      {/* <CounterArray /> */}
+      <CounterOne />
     </>
   );
 }
