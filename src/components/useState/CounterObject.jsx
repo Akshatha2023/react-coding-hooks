@@ -21,4 +21,4 @@ const CounterObject = () => {
 
 export default CounterObject;
 
-problem: if i type firstname lastname getting dissapeared ,if i type lastname firstname will dissapeared,coz usestate automatically doesnot merge and update object ,so we should spread operator
+// problem: if i type firstname lastname getting dissapeared ,if i type lastname firstname will dissapeared,coz usestate automatically doesnot merge and update object ,so we should spread operator
