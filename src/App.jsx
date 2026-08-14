@@ -7,6 +7,8 @@ import CounterArray from "./components/useState/CounterArray";
 import CounterOne from "./components/useEffect/CounterOne";
 import CounterTwoUseEffect from "./components/useEffect/CounterTwoUseEffect";
 import CounterThreeUseEffect from "./components/useEffect/CounterThreeUseEffect";
+import HookMouse from "./components/useEffect/HookMouse";
+import MouseContainer from "./components/useEffect/MouseContainer";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <CounterArray /> */}
       {/* <CounterOne /> */}
       {/* <CounterTwoUseEffect /> */}
-      <CounterThreeUseEffect />
+      {/* <CounterThreeUseEffect /> */}
+      {/* <HookMouse /> */}
+      <MouseContainer />
     </>
   );
 }
