@@ -10,7 +10,11 @@ import CounterThreeUseEffect from "./components/useEffect/CounterThreeUseEffect"
 import HookMouse from "./components/useEffect/HookMouse";
 import MouseContainer from "./components/useEffect/MouseContainer";
 import FetchData from "./components/useEffect/FetchData";
+import { createContext } from "react";
+import DataPassing from "./components/useContext/DataPassing";
 
+export const UserContext = createContext();
+export const ChannelContext = createContext();
 function App() {
   return (
     <>
@@ -23,7 +27,12 @@ function App() {
       {/* <CounterThreeUseEffect /> */}
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <UserContext.Provider value={"Akshatha"}>
+        <ChannelContext.Provider value={"DAILY - VLOGS"}>
+          <DataPassing />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </>
   );
 }
