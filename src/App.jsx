@@ -9,6 +9,7 @@ import CounterTwoUseEffect from "./components/useEffect/CounterTwoUseEffect";
 import CounterThreeUseEffect from "./components/useEffect/CounterThreeUseEffect";
 import HookMouse from "./components/useEffect/HookMouse";
 import MouseContainer from "./components/useEffect/MouseContainer";
+import FetchData from "./components/useEffect/FetchData";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <CounterTwoUseEffect /> */}
       {/* <CounterThreeUseEffect /> */}
       {/* <HookMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <FetchData />
     </>
   );
 }
