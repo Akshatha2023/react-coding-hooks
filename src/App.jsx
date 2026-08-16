@@ -12,6 +12,7 @@ import MouseContainer from "./components/useEffect/MouseContainer";
 import FetchData from "./components/useEffect/FetchData";
 import { createContext } from "react";
 import DataPassing from "./components/useContext/DataPassing";
+import CounterReducerOne from "./components/useReducer/CounterReducerOne";
 
 export const UserContext = createContext();
 export const ChannelContext = createContext();
@@ -28,11 +29,12 @@ function App() {
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
       {/* <FetchData /> */}
-      <UserContext.Provider value={"Akshatha"}>
+      {/* <UserContext.Provider value={"Akshatha"}>
         <ChannelContext.Provider value={"DAILY - VLOGS"}>
           <DataPassing />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <CounterReducerOne />
     </>
   );
 }
