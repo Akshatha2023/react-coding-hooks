@@ -13,6 +13,7 @@ import FetchData from "./components/useEffect/FetchData";
 import { createContext } from "react";
 import DataPassing from "./components/useContext/DataPassing";
 import CounterReducerOne from "./components/useReducer/CounterReducerOne";
+import CounterReducerTwo from "./components/useReducer/CounterReducerTwo";
 
 export const UserContext = createContext();
 export const ChannelContext = createContext();
@@ -34,7 +35,8 @@ function App() {
           <DataPassing />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <CounterReducerOne />
+      {/* <CounterReducerOne /> */}
+      <CounterReducerTwo />
     </>
   );
 }
